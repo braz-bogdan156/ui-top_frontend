@@ -48,17 +48,6 @@ useDeleteTimers — manages delayed deletion timers
 
 useUndoToast — handles toast notifications with Undo button
 
-🚀 Project Structure
-src/
-├─ api/             # Axios configuration
-├─ components/
-│  ├─ AddTodoForm/  # Form for creating todos
-│  ├─ TodoItem/     # Single todo item (checkbox + delete)
-│  ├─ TodoList/     # Todos list with filtering
-│  └─ Layout/       # Page layout and styling
-├─ hooks/           # Custom React hooks
-├─ types/           # TypeScript interfaces
-└─ App.tsx          # Main app component
 
 ⚙️ Setup & Run
 

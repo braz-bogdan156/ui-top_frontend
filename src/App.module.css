@@ -1,0 +1,57 @@
+.topRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  background: #f9fafc;
+  padding: 10px 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.topRow label {
+  font-weight: 500;
+  color: #333;
+}
+
+.topRow select {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.topRow select:hover {
+  border-color: #007bff;
+}
+
+.refreshBtn {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 500;
+}
+
+.refreshBtn:hover {
+  background-color: #0056b3;
+}
+
+.refreshBtn:active {
+  transform: scale(0.97);
+}
+
+.noTasks {
+  text-align: center;
+  color: #777;
+  font-style: italic;
+  margin-top: 40px;
+  font-size: 16px;
+}

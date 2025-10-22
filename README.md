@@ -48,7 +48,7 @@ useDeleteTimers — manages delayed deletion timers
 
 useUndoToast — handles toast notifications with Undo button
 
-💅 Project Structure
+🚀 Project Structure
 src/
 ├─ api/             # Axios configuration
 ├─ components/
@@ -65,6 +65,7 @@ src/
 Clone the project
 
 git clone https://github.com/braz-bogdan156/ui-top_frontend
+
 cd frontend
 
 
